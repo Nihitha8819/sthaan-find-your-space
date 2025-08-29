@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Building2, User, Menu } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2">
             <div className="bg-gradient-to-r from-primary to-primary-light p-2 rounded-lg">
               <Building2 className="h-6 w-6 text-white" />
             </div>
@@ -18,7 +19,7 @@ const Header = () => {
               <h1 className="text-2xl font-bold text-foreground">Sthaan</h1>
               <p className="text-xs text-muted-foreground">Find Your Space</p>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
@@ -44,9 +45,11 @@ const Header = () => {
             <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
               Post Property
             </Button>
-            <Button variant="ghost" size="icon">
-              <User className="h-5 w-5" />
-            </Button>
+            <Link to="/login">
+              <Button variant="ghost" size="icon">
+                <User className="h-5 w-5" />
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -83,10 +86,12 @@ const Header = () => {
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                   Post Property
                 </Button>
-                <Button variant="ghost" className="justify-start">
-                  <User className="h-5 w-5 mr-2" />
-                  Login
-                </Button>
+                <Link to="/login">
+                  <Button variant="ghost" className="justify-start w-full">
+                    <User className="h-5 w-5 mr-2" />
+                    Login
+                  </Button>
+                </Link>
               </div>
             </nav>
           </div>

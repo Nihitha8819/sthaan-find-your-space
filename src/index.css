@@ -6,19 +6,25 @@
 
 @layer base {
   :root {
-    /* Core Brand Colors */
+    /* Core Brand Colors - Enhanced */
     --background: 0 0% 100%;
     --foreground: 215 25% 27%;
 
-    /* Sthaan Brand Identity */
-    --primary: 210 100% 50%;      /* Vibrant blue */
-    --primary-light: 210 100% 60%;
-    --primary-dark: 210 100% 40%;
+    /* Sthaan Brand Identity - More Vibrant */
+    --primary: 220 100% 58%;      /* Rich blue */
+    --primary-light: 220 100% 68%;
+    --primary-dark: 220 100% 48%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 100% 62%;     /* Golden accent */
-    --secondary-light: 45 100% 72%;
+    --secondary: 32 100% 60%;     /* Vibrant orange */
+    --secondary-light: 32 100% 70%;
     --secondary-foreground: 215 25% 27%;
+
+    /* Accent colors */
+    --accent-purple: 270 100% 65%;
+    --accent-teal: 180 100% 50%;
+    --accent-pink: 340 100% 65%;
+    --accent-green: 142 76% 36%;
 
     /* Property-specific colors */
     --success: 142 76% 36%;       /* Sale/Available green */
@@ -43,24 +49,27 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 210 100% 50%;
+    --ring: 220 100% 58%;
 
     /* Design tokens */
     --radius: 0.75rem;
     --radius-lg: 1rem;
     --radius-xl: 1.5rem;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(210 100% 50%) 0%, hsl(210 100% 40%) 100%);
+    /* Enhanced Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 100% 58%) 0%, hsl(270 100% 65%) 50%, hsl(32 100% 60%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(220 14% 98%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(45 100% 62%) 0%, hsl(45 100% 72%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(32 100% 60%) 0%, hsl(32 100% 70%) 100%);
+    --gradient-auth: linear-gradient(135deg, hsl(220 100% 58%) 0%, hsl(180 100% 50%) 100%);
+    --gradient-feature: linear-gradient(145deg, hsl(270 100% 65%) 0%, hsl(340 100% 65%) 100%);
 
-    /* Shadows */
+    /* Enhanced Shadows */
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -2px hsl(0 0% 0% / 0.1);
     --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -4px hsl(0 0% 0% / 0.1);
     --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.1), 0 8px 10px -6px hsl(0 0% 0% / 0.1);
-    --shadow-property: 0 8px 32px hsl(210 100% 50% / 0.12);
+    --shadow-property: 0 8px 32px hsl(220 100% 58% / 0.15);
+    --shadow-glow: 0 0 40px hsl(220 100% 68% / 0.3);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

@@ -35,6 +35,14 @@ export default {
 					light: 'hsl(var(--secondary-light))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
+				accent: {
+					DEFAULT: 'hsl(var(--accent))',
+					foreground: 'hsl(var(--accent-foreground))',
+					purple: 'hsl(var(--accent-purple))',
+					teal: 'hsl(var(--accent-teal))',
+					pink: 'hsl(var(--accent-pink))',
+					green: 'hsl(var(--accent-green))'
+				},
 				success: {
 					DEFAULT: 'hsl(var(--success))',
 					foreground: 'hsl(var(--success-foreground))'

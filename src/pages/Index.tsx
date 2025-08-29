@@ -111,24 +111,24 @@ const Index = () => {
             </div>
 
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-secondary/10 to-secondary/5 p-6 rounded-xl mb-4 group-hover:shadow-lg transition-all">
-                <TrendingUp className="h-12 w-12 text-secondary mx-auto mb-4" />
+              <div className="bg-gradient-to-br from-accent-purple/10 to-accent-purple/5 p-6 rounded-xl mb-4 group-hover:shadow-lg transition-all">
+                <TrendingUp className="h-12 w-12 text-accent-purple mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Price Insights</h3>
                 <p className="text-muted-foreground">Get real-time market trends and price analytics</p>
               </div>
             </div>
 
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-success/10 to-success/5 p-6 rounded-xl mb-4 group-hover:shadow-lg transition-all">
-                <Award className="h-12 w-12 text-success mx-auto mb-4" />
+              <div className="bg-gradient-to-br from-accent-teal/10 to-accent-teal/5 p-6 rounded-xl mb-4 group-hover:shadow-lg transition-all">
+                <Award className="h-12 w-12 text-accent-teal mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Expert Support</h3>
                 <p className="text-muted-foreground">Professional guidance throughout your property journey</p>
               </div>
             </div>
 
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-warning/10 to-warning/5 p-6 rounded-xl mb-4 group-hover:shadow-lg transition-all">
-                <Users className="h-12 w-12 text-warning mx-auto mb-4" />
+              <div className="bg-gradient-to-br from-secondary/10 to-secondary/5 p-6 rounded-xl mb-4 group-hover:shadow-lg transition-all">
+                <Users className="h-12 w-12 text-secondary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-2">Trusted Network</h3>
                 <p className="text-muted-foreground">Connect with verified builders, agents, and owners</p>
               </div>
